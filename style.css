@@ -1,0 +1,88 @@
+:root {
+    /* Dark theme */
+    --main-bg-colour-dark: #383838;
+    --main-txt-colour-dark: #e3e3e3;
+    --table-body-bg-colour-dark: #757575;
+    --table-head-bg-colour-dark: #5c5b5b;
+    --button-bg-colour-dark: #000000;
+    /* Light theme */
+    --main-bg-colour-light: #e3e3e3;
+    --main-txt-colour-light: #000000;
+    --table-body-bg-colour-light: #d6d6d6;
+    --table-head-bg-colour-light: #b5b5b5;
+    /* #949494 */
+    --button-bg-colour-light: #fff;
+}
+  
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: var(--table-bg-colour-dark);
+}
+
+/* Made by John McNally */
+.dark-theme-main {
+    background-color: var(--main-bg-colour-dark);
+    color: var(--main-txt-colour-dark);
+}
+.dark-theme-table-body {
+    background-color: var(--table-body-bg-colour-dark);
+}
+.dark-theme-table-heading {
+    background-color: var(--table-head-bg-colour-dark);
+}
+.dark-theme-button {
+    background-color: var(--button-bg-colour-dark);
+    color: var(--main-txt-colour-dark);
+}
+
+.light-theme-main {
+    background-color: var(--main-bg-colour-light);
+    color: var(--main-txt-colour-light);
+}
+.light-theme-table-body {
+    background-color: var(--table-body-bg-colour-light);
+}
+.light-theme-table-heading {
+    background-color: var(--table-head-bg-colour-light);
+}
+.light-theme-button {
+    background-color: var(--button-bg-colour-light);
+    color: var(--main-txt-colour-light);
+}
+
+body {
+    font-size: 1.1rem;
+}
+
+#theme-button {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    border: 2px #949494 solid;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+.symbol {
+    cursor: pointer;
+}
+.symbol:hover {
+    background-color: #949494;
+}
+
+table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hidden {
+    display: none;
+}
+
+/* var(--main-bg-colour); */
