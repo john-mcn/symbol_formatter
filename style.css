@@ -1,3 +1,5 @@
+/* Made by John McNally */
+
 :root {
     /* Dark theme */
     --main-bg-colour-dark: #383838;
@@ -10,24 +12,9 @@
     --main-txt-colour-light: #000000;
     --table-body-bg-colour-light: #d6d6d6;
     --table-head-bg-colour-light: #b5b5b5;
-    /* #949494 */
     --button-bg-colour-light: #fff;
 }
-  
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
-th {
-  background-color: var(--table-bg-colour-dark);
-}
 
-/* Made by John McNally */
 .dark-theme-main {
     background-color: var(--main-bg-colour-dark);
     color: var(--main-txt-colour-dark);
@@ -70,6 +57,10 @@ body {
     border-radius: 5px;
     font-size: 1.3rem;
 }
+#theme-button:hover {
+    cursor: pointer;
+}
+
 .symbol {
     cursor: pointer;
 }
@@ -80,7 +71,18 @@ body {
 table {
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 100%;
+    border-collapse: collapse;
 }
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: var(--table-bg-colour-dark);
+}
+
 .hidden {
     display: none;
 }

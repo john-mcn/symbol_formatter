@@ -1,4 +1,5 @@
 // Made by John McNally
+
 const body = document.getElementsByTagName("body")[0];
 const table = document.getElementById("symbol-table");
 const tableBody = table.getElementsByTagName("tbody")[0];
